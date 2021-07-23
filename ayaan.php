@@ -29,12 +29,11 @@ break;
 }
 case 2:{
 $u=readline("Enter the url of website => ");
-$asa=shell_exec("ping  -w 1 -c 1  " .$u. " -4 | grep -E -o '\([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\) '" );
+$asa=shell_exec("host -4 " .$u. " | grep -E -o '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'" );
 br();
 echo "Ip address of $u => ";
 br();
-$aasa= substr($asa,1,strlen($asa)-4);
-echo $aasa;
+echo $asa;
 //echo $asa;
 
 break;
