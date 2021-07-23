@@ -14,7 +14,9 @@ php
  Linux :-
 Enter the following commands :-
 1> sudo apt install hping3
+2> sudo apt install dnsutils
 3> sudo apt install php 
+4> sudo apt install host
 *******************Start Attacking**********************
 
 php ayaan.php
