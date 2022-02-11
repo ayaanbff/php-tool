@@ -33,6 +33,6 @@ Enter the following commands :-
 
 4> sudo apt install host
 
-<center>Start Attacking</center>
+<div style="text-align:center"><center>Start Attacking</center></div>
 
 php ayaan.php
