@@ -1,9 +1,8 @@
-# tool
-This is a tool which can be use to retrive ip addresses and ddos-ing. 
+### `Ayaan's tool`
 
-****************************Ayaan's tool****************************  
+This is the cli based tool written solely on `php` which can be used for retrieving any websites ip address , one's own ip address and also it can be used to DDOS 
+(distributes denial of service) more specifically `syn-attack` any ip address with the help of some dependencies.
 
-This is the attacking tool which can be use to find and grab ip address and DDoS a website .
 Please take note :-
 Hacking is illegal . you can't do it on anyone else unless you have a written permit . 
 Use this tool only on yourself (if you don't have a permit) or we aren't responsible for any illegal buisness.
@@ -11,28 +10,28 @@ This is for only educational purposes.
 
 Dependecies :-
 
-hping3
+`hping3`
  
-host
+`host`
 
-php
+`php`
 
-dnsutils
+`dnsutils`
 
-**********************Install dependencies***************************
+## **Install dependencies**
 
  Linux :-
  
 Enter the following commands :-
 
-1> sudo apt install hping3
+1> `sudo apt install hping3`
 
-2> sudo apt install dnsutils
+2> `sudo apt install dnsutils`
 
-3> sudo apt install php 
+3> `sudo apt install php `
 
-4> sudo apt install host
+4> `sudo apt install host`
 
-<div style="text-align:center"><center>Start Attacking</center></div>
+#### **Starting tool** :-
 
-php ayaan.php
+**`php ayaan.php`**
